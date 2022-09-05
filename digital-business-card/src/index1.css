@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    background-color: #23252C;
+}
+/* .container {
+    display: grid;
+    grid-template-columns: 317px;
+    grid-template-rows: 500px 100px 100px 50px;
+    grid-gap: 3px;
+    
+} */
+
+.app {
+    position: absolute;
+    width: 317px;
+    height: auto;
+    left: 50%;
+    right: 50%;
+    top: 44px;
+    background-color: #1A1B21;
+    }
+
+.name {
+    position: relative;
+    width: 317px;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.title {
+
+    width: 317px;
+    font-weight: 400;
+    font-size: 12.8px;
+    text-align: center;
+    color: #F3BF99;
+}
+
+.site {
+
+    width: 317px;
+    font-weight: 400;
+    font-size: 10.24px;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+button {
+    display: inline-block;
+    padding: 9px 13px 9px 11px;
+    position: relative;
+    width: 115px;
+    height: 34px;
+    justify-content: center;
+    border: 1px solid #D1D5DB;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.but-email {
+    margin: 10px 10px 10px 35px;
+    color: #374151;
+    background: #FFFFFF;
+
+}
+
+.but-linkedin {
+    margin: 10px auto 10px 10px;
+    background: #5093E2;
+}
+
+img {
+
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+    
+    background: url(.png);
+    border-radius: 10px 10px 0px 0px;
+}
