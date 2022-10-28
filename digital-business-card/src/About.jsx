@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className='about'>
         <h1>About</h1>
-        <p>I don't know CSS and it sucks</p>
+        <p>FCC Certified for Responsive Web Design and JavaScript Algorithms and Data Structures</p>
     </div>
   )
 }
