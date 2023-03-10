@@ -1,11 +1,12 @@
 import React from 'react'
-import './index.css'
 
 export default function Interests() {
   return (
-    <div className='interests'>
-        <h1>Interests</h1>
-        <p>blabla coding blaba</p>
+    <div className='factsContainer'>
+        <h1 className='factsHeader'>Interests</h1>
+        <p className='factsTxt'>Food expert. Music scholar. 
+        Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. 
+        Pop culture ninja. Coffee fanatic.</p>
     </div>
   )
 }

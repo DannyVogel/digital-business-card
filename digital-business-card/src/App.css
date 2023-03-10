@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  background-color: #23252C;
+  margin-top: 45px;
+}
+
+#root {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 320px;
+  min-height: 700px;
+  font-family: 'Inter', sans-serif;
+  background: white;
+  border-radius: 10px;
+}
+
+.myPhotoContainer {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.myPhoto {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.myDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.myName, .myJob, .myWebsite {
+  margin: 0 0 6px 0;
+}
+
+.myName {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.myJob {
+  font-size: 13px;
+  color: #F47D27;
+}
+
+.myWebsite {
+  font-size: 10px;
+  color: #4A4E74;
+  cursor: pointer;
+}
+
+.myWebsite:hover {
+  color: blue;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px;
+}
+
+.buttonContainer > button {
+  width: 115px;
+  height: 34px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.buttonContainer > button:hover {
+  filter: brightness(85%);
+}
+
+.emailBtn {
+  border: 1px solid #D1D5DB
+}
+
+.linkedInBtn {
+  border: none;
+  background: #297FE5;
+  color: white;
+}
+
+button > i {
+  margin-right: 8px;
+}
+
+.factsContainer {
+  margin: 25px 35px;
+  text-align: justify;
+}
+
+.factsHeader {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.factsTxt {
+  font-size: 10px;
+  line-height: 150%;
+}
+
+.iconContainer {
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  background: #D5D4D8;
+  border-bottom: 1px solid #918E9B;
+  border-radius: 0 0 10px 10px;
+  margin-top: 50px;
+}
+
+.iconContainer > i {
+  color: #918E9B;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.iconContainer > i:hover {
+  color: #ada9b9;
+}

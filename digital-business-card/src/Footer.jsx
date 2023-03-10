@@ -1,13 +1,12 @@
 import React from 'react'
-import './index.css'
 
 export default function Footer() {
   return (
-    <div className='footer-buttons'>
-        <button>t</button>
-        <button>f</button>
-        <button>i</button>
-        <button>g</button>
+    <div className='iconContainer'>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-square-github"></i>
     </div>
   )
 }

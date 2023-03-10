@@ -1,15 +1,20 @@
-import React from 'react'
-import './index.css'
+import React from "react";
 
 export default function Info() {
   return (
     <div>
-        <img className="pfp" src="./profile-pic.jpg" alt="Danny Vogel" />
-        <h1 className='name'>Danny Vogel</h1>
-        <h2 className='title'>Frontend Developer</h2>
-        <h3 className='site'>DV.website</h3>
-        <button className='but-email'><img className="icon" src="./mail.png"/> Email</button>
-        <button className='but-linkedin'>LinkedIn</button>
+        <div className="myPhotoContainer">
+            <img src="./me.jpg" alt="" className="myPhoto" />
+        </div>
+        <div className="myDetails">
+            <h1 className="myName">Danny Vogel</h1>
+            <p className="myJob">Frontend Developer</p>
+            <p className="myWebsite">dannyvogel.website</p>
+        </div>
+        <div className="buttonContainer">
+            <button className="emailBtn"><i class="fa-solid fa-envelope"></i>Email</button>
+            <button className="linkedInBtn"><i class="fa-brands fa-linkedin"></i>Linkedin</button>
+        </div>
     </div>
   )
 }
